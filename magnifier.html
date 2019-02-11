@@ -16,9 +16,89 @@
                 <!-- 这就是一个贴膜 -->
             </div>
         </div>
-        
+        <div class="wrap-choice-magnifier">
+            <i class="active"><img src="./img/1.jpg" alt=""></i>
+            <i><img src="./img/bottom2.jpg" alt=""></i>
+            <i><img src="./img/bottom3.jpg" alt=""></i>
+            <i><img src="./img/bottom4.jpg" alt=""></i>
+            <i><img src="./img/bottom5.jpg" alt=""></i>
+        </div>
 
+        <div class="wrap-big-magnifier">
+           <img  class="img1" src="./img/5b57e0e8Ne3f4f846.jpg" alt="">
+            <!-- <img  class="img2" src="./img/2.big.jpg" alt="">
+            <img class="img3" src="./img/3.big.jpg" alt="">
+           <img class="img4" src="./img/4.big.jpg" alt="">
+           <img class="img5" src="./img/5.big.jpg" alt=""> -->
+        </div>
+        
 
     </div>
 </body>
+<script>
+//开始计算比例
+//小图比例
+var small_wrap=document.querySelector(".wrap-small-magnifier")
+var focus=document.querySelector(".focus");
+//大图比例
+var big_wrap=document.querySelector(".wrap-big-magnifier");
+var big_bg=big_wrap.children[0];
+//计算比例
+//tip:display设置之后用offset是无法获取其宽度和高度的
+var prop = parseInt(getComputedStyle(big_wrap)["width"]) / parseInt(getComputedStyle(focus)["width"]);// console.log(prop)
+//计算大图比例
+big_bg.style.width = prop * small_wrap.offsetWidth + "px";
+big_bg.style.height = prop * small_wrap.offsetHeight + "px";
+//鼠标y移入就显示
+small_wrap.addEventListener("mouseenter",toggle.bind(false,"show"));
+small_wrap.addEventListener("mouseleave",toggle.bind(false,"hide"));
+
+function toggle(type){
+    var display="null"
+    if(type==="show"){
+        display="block"
+    }else{
+        display="none"
+    }
+    focus.style.display=display;
+    big_wrap.style.display=display
+}
+small_wrap.addEventListener("mousemove",eleMov)
+function eleMov(evt){
+    var e = evt || window.event;
+                  var _left = e.offsetX;
+                  var _top = e.offsetY;
+
+                  // 边界检测;
+
+                  _left = _left - focus.offsetWidth / 2 ;
+                  _top = _top - focus.offsetHeight / 2;
+
+                  // 最小值边界判断;
+                  _left = _left <= 0 ? 0 : _left;
+                  _top = _top <= 0 ? 0 : _top;
+
+                  // 最大值边界判断;
+
+                  var maxLeft = small_wrap.offsetWidth - focus.offsetWidth;
+                  var maxTop =  small_wrap.offsetHeight - focus.offsetHeight;
+
+
+                  _left = _left >= maxLeft ? maxLeft : _left;
+                  _top = _top >= maxTop ? maxTop : _top;
+
+                  // 边界检测 end;  
+
+                  // 左侧焦点移动;
+                  focus.style.left = _left + "px";
+                  focus.style.top = _top  + "px";
+                  
+                  // 右侧背景移动;
+
+                  big_bg.style.left = -_left * prop + "px";
+                  big_bg.style.top = -_top * prop + "px";
+
+}
+
+</script>
 </html>
