@@ -1,0 +1,17 @@
+var a = 1;
+var index = 0;
+setInterval(function(){
+	(a>6)?a=1:a=a;
+	for (var i = 1; i < 6; i++) {
+		$(".b-icon"+i).css("opacity","0");
+	}
+	$(".b-icon"+a).css("opacity","1");
+	a++;
+},2000)
+
+
+$(".regi ul li").click(function(){
+	index = $(this).index();
+	$(".regi ul li").eq(index).find("span").addClass("span-title");
+	$(".regi ul li").eq(index).find("input").focus();
+})

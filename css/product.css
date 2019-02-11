@@ -1,0 +1,321 @@
+*{margin:0px;padding:0;}
+.soubig{
+	border-bottom:2px solid red;
+}
+.bodyer{
+	width:1200px;
+	margin:0 auto;
+}
+.qb{
+	height: 40px;
+	padding-left: 15px;
+	font-size: 12px;
+	line-height: 40px;
+}
+.qb u{
+	text-decoration: none;
+}
+.spnum{
+	float:right;
+	color:#999;
+	margin-right:20px;
+}
+.form{
+	width:1198px;
+	height: 338px;
+	border:1px solid #ccc;
+}
+.form p{
+	display: block;
+	width:130px;
+	font-size:12px;
+	float:left;
+	color: #999;
+	text-align: right;
+	border-right:1px solid #ccc;
+	padding-right:10px;
+}
+.fenclass{
+	width:1198px;
+	height: 33px;
+	border-top:1px #999 dotted;
+	border-bottom:1px #ccc dotted;
+	line-height: 33px;
+}
+.brand p{
+	width:128px;
+	height: 115px;
+	border-right:1px solid #ccc;
+}
+.form .brand ul{
+	margin-top:6px;
+	width:900px;
+	height: 95px;
+}
+.form .brand ul li{
+	width:99px;
+	height: 45px;
+	position: relative;
+	border:1px solid #ccc;
+}
+.form .brand ul li img{
+	margin-top:5px;
+	margin-left:11px;
+}
+.form .brand ul a{
+	display: block;
+	background:#fff;
+	font-size:24px;
+	width:99px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	top:0;
+	opacity: 0;
+}
+.form .brand ul a:hover{
+	opacity: 1;
+}
+.form .brand .liaaa{
+	border-bottom:none;
+}
+.brand{
+	width:1194px;
+	height: 115px;
+	border:2px solid #ccc;
+	line-height: 33px;
+}
+.enrgy,.origin,.contentge,.capacity,.more{
+	width:1198px;
+	height:36px;
+	border-bottom:1px #ccc dotted;
+	line-height: 36px;
+}
+.form ul{
+	width:900px;
+	height: 35px;
+	float:left;
+	padding-left:20px;
+}
+.form ul li{
+	margin-left: 20px;
+	float:left;
+}
+.form ul li a{
+	font-size:12px;
+	color:#000;
+}
+.form ul li:hover a{
+	color: red;
+}
+
+/*two menu*/
+.cpNav{
+	width: 1200px;
+	height: 40px;
+	margin:10px auto;
+	background: url(../img/proimg/nav.png)no-repeat;
+}
+.menu{
+	width: 200px;
+	height: 40px;
+	margin-left:370px;
+	position: relative;
+}
+.menu p{
+	display: block;
+	width: 49px;
+	height: 38px;
+	font-size: 14px;
+	float: left;
+	color: #555;
+	background: #f1f1f1;
+	text-align: center;
+	line-height: 40px;
+	border:1px solid #eee;
+	border-right:none;
+}
+.menua{
+	display: block;
+	width: 119px;
+	height: 38px;
+	float: left;
+	position: relative;
+	border:1px solid #e0e0e0;
+	border-left: none;
+	background: #fff;
+	z-index: 1;
+	font-size:14px;
+	text-align: center;
+	line-height: 38px;
+	color: #777;
+	cursor: pointer;
+}
+.mdzz{
+	width: 119px;
+	height: 38px;
+	overflow: hidden;
+	position: relative;
+}
+.menua i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #ff855b;
+	position: absolute;
+	transform: rotate(45deg);
+	right:-10px;bottom:-10px;
+}
+.menua:hover{
+	border-bottom:none;
+}
+.menua:hover i{
+	display: none;
+}
+.menuCtiy{
+	width: 407px;
+	border:1px solid #e0e0e0;
+	position: absolute;
+	z-index: 999;
+	top:38px;
+	padding-bottom:5px;
+	background: #fff;
+	display: none;
+}
+.menuCtiy .loadPush{
+	width: 400px;
+	height: 36px;
+	margin:5px 3px;
+	border-bottom:1px solid #e5e5e5;
+}
+.menuCtiy .loadPush ul li{
+	height: 35px;
+	background: pink;
+	float: left;
+	border:1px solid #e5e5e5;
+	background:#f7f7f7;
+	line-height: 30px;
+	padding:0 10px 0 10px;
+	font-size: 12px;
+	color: #333;
+}
+.menuCtiy .loadPush ul li.eqthis{
+	border-bottom:none;
+	background: #fff;
+	height: 36px;
+}
+.menuCtiy .loadPush ul li:nth-child(2){
+	border-left:none;
+}
+.city1,.city2{
+	width: 407px;
+}
+.city1{height: 180px;}
+.city2 ul li{
+	width: 80px;
+	height: 30px;
+	float: left;
+	color: #333;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.menuCtiy dl{
+	width: 400px;
+	height: 30px;
+	margin-left: 7px;
+}
+.menuCtiy dt{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	color: #999;
+}
+.menuCtiy dd{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	font-size: 12px;
+	color: #333;
+}
+
+/*产品列表*/
+.cplist{
+	width: 1200px;
+	height: 910px;
+	margin:0 auto;
+}
+.cplist ul{
+	width: 1200px;
+}
+.cplist ul li{
+	width: 230px;
+	float: left;
+	margin-left: 10px;
+}
+.cplist ul li p{
+	font-family: "Century Gothic";
+    font-size: 18px;
+    color: #e60012;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.cplist ul li .title{
+	display: block;
+	width: 180px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    color:#000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+	margin-left: 20px;
+}
+.cplist ul li .cpImg{
+	width: 230px;
+	height:230px; 
+}
+.cpImg img{
+	width: 200px;
+	height:200px; 
+	margin-left:15px;
+	margin-top:15px;
+}
+.cpBtn{
+	display: block;
+	width: 110px;
+	height: 26px;
+	border-radius: 5px;
+	background: #ff5c4d;
+	border:1px solid #ff4141;
+	margin-top:5px;
+	margin-left:20px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+}
+.cpBtn:hover{
+	background-color: #fb3a29;
+    border: 1px solid #fb3a29;
+}
+.footer{
+	width: 100%;
+	height: 450px;
+	background: #fff;
+	margin-top:20px;
+}
+.footbg{
+	width: 1200px;
+	height: 450px;
+	margin:0 auto;
+	background: url(../img/foot.png) no-repeat;
+}

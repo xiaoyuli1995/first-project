@@ -1,0 +1,178 @@
+
+/*全球进口*/
+.global-sp{
+	width: 1200px;
+	height: 490px;
+	margin: 20px auto;
+	color: #333;
+}
+.global-sp h3{
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px; 
+	font-size: 22px;
+}
+.global-sp h3 i{
+	font-size: 22px;
+	margin-left:5px;
+}
+.global-spiner{
+	width: 1200px;
+	height: 450px;
+}
+.spinerLeft{
+	width: 900px;
+	height: 450px;
+	float: left;
+	background:linear-gradient(#b96131 0%, #6a452b 100%);
+}
+.spiner-logo{
+	width: 316px;
+	height: 450px;
+	background: url(../img/quanqiu01.jpg);
+	background-size: cover; 
+	float: left;
+	position: relative;
+}
+.sp-logo-herder{
+	width: 316px;
+	height: 150px;
+	position: absolute;
+	bottom:0;left: 0;
+	padding-left: 15px;
+}
+.zwjksp{
+	font-size: 18px;
+	color: #fff;
+}
+.ywjksp{
+	font-size: 16px;
+	color: #fff;
+}
+.spUl{
+	width: 296px;
+	height: 80px;
+	margin-top:15px;
+}
+.spUl li{
+	width: 95px;
+	height: 40px;
+	float: left;
+}
+.spUl li a{
+	display: block;
+	width: 85px;
+	height: 30px;
+	border:1px solid rgba(255,255,255,0.25);
+	background: rgba(255,255,255,0.15);
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+.spUl li a:hover{
+	background: rgba(255,255,255,0.3);
+}
+.spinerText{
+	width: 584px;
+	height: 450px;
+	float: left;
+	cursor: pointer;
+}
+.spinerText ul{
+	width: 570px;
+	height: 440px;
+	margin:5px 8px;
+}
+.spinerText ul .spdb{
+	width: 379px;
+	height: 219px;
+}
+.spinerText ul .spdb img{
+	width: 379px;
+	height: 219px;
+}
+.spinerText ul li:hover{
+	transform: scale(1.05);
+	position: relative;
+	z-index: 1;
+}
+.spinerText ul li{
+	width: 189px;
+	height: 219px;
+	background: #fff;
+	margin-top: 1px;
+	float: left;
+	transition: transform .5s;
+	box-shadow:  0 0 1px #000;
+	margin-left: 1px;
+}
+.spinerText ul li img{
+	width: 189px;
+	height: 219px;
+}
+.spinerRight{
+	width: 300px;
+	height: 450px;
+	float: right;
+}
+.spinerRight li{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.spinerRight li a{
+	display: block;
+	width: 150px;
+	height: 150px;
+	padding: 12px 0 0 12px;
+}
+.spinerRight li a img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-right:10px; 
+	transition: margin .5s;
+}
+.spinerRight li a:hover img{
+	margin-right: 20px;
+}
+.spinerRight li p:nth-child(1){
+	font-size: 14px;
+}
+.spinerRight li p:nth-child(2){
+	font-size: 12px;
+	margin:5px 0 3px 0;
+	color:#757575;
+}
+.sp1-p1{color: #f06291;}
+.sp1-p2{background:#f06291;}
+.sp2-p1{color: #ee9832;}
+.sp2-p2{background:#ee9832;}
+.sp3-p1{color: #54a472;}
+.sp3-p2{background:#54a472;}
+.sp4-p1{color: #ad7d62;}
+.sp4-p2{background:#ad7d62;}
+.sp5-p1{color: #468bcb;}
+.sp5-p2{background:#468bcb;}
+.sp6-p1{color: #54a472;}
+.sp6-p2{background:#54a472;}
+.spinerRight li p:nth-child(3){
+	display: block;
+	width: 20px;
+	height: 3px;
+}
+.spinerRight li:nth-child(1){background: #ffe6ee;}
+.spinerRight li:nth-child(2){background: #fff3e4;}
+.spinerRight li:nth-child(3){background: #e9fbf0;}
+.spinerRight li:nth-child(4){background: #f9eee9;}
+.spinerRight li:nth-child(5){background: #f0f8ff;}
+.spinerRight li:nth-child(6){background: #e2f8f2;}
+/*活动广告*/
+.activity{
+	width: 1200px;
+	height: 100px;
+	background: url(../img/toRightBanner.jpg);
+	margin:0 auto;
+	cursor: pointer;
+}

@@ -1,0 +1,182 @@
+*{margin:0;padding:0;}
+.zhengdian{
+	width: 100%;
+	height: 60px;
+	background: #222;
+}
+.zhengcon{
+	width: 1200px;
+	height: 60px;
+	margin:0 auto;
+}
+.zhengcon a{
+	display: block;
+	width: 150px;
+	height: 60px;
+	background: linear-gradient(30deg,#fd6164,#fe6a4d);
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.jidian{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	border-bottom:solid 2px #fd5b45;
+}
+.jicon{
+	width: 800px;
+	height: 60px;
+	margin:0 auto;
+}
+.jicon a{
+	display: block;
+	width: 140px;
+	height: 60px;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	color: #737373;
+	font-weight: 400;
+}
+.jicon a.teshu{
+	color: #ff3014;
+}
+.jicon a span{
+	display: block;
+	font-size: 12px;
+	margin:8px 0;
+	font-weight: 400;
+}
+.qg{
+	width: 100%;
+	height: 1450px;
+	background: url(../img/qianggoubg.jpg)no-repeat;
+}
+.qg-list{
+	width: 1200px;
+	height: 1450px;
+	margin:0 auto;
+	padding-top: 1px;
+	overflow: hidden;
+}
+.qg-list>div{
+	width: 1200px;
+	height: 1450px;
+	margin-top:48px;
+}
+.qg-list div ul li{
+	width: 290px;
+	background: #fff;
+	height: 447px;
+	float: left;
+	margin-right: 10px;
+	margin-top:20px;
+}
+.qg-list div ul li a.onea{
+	display: block;
+	width: 268px;
+	height: 268px;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.qg-list div ul li a.onea img{
+	width: 100%;
+	height: 100%;
+}
+.qg-list div ul li a.twoa{
+	display: block;
+	width: 268px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.qg-list div ul li a.twoa span{
+	display: block;
+	width: 36px;
+	height: 18px;
+	border: solid 1px #ff5c30;
+	line-height: 18px;
+	text-align: center;
+    color: #ff5c30;
+    float: left;
+}
+.qg-list div ul li a.twoa p{
+	display: block;
+	height: 18px;
+	margin-left: 5px;
+    color: #000;
+    float: left;
+}
+.qg-list-botoom{
+	width: 100%;
+	height: 75px;
+	background: linear-gradient(135deg,#ff5c30,#fa5151);
+	margin-top: 28px;
+}
+.qgleft{
+	width: 165px;
+	height: 75px;
+	float: left;
+}
+.qgright{
+	width: 125px;
+	height: 75px;
+	background: url(../img/qgjl.png)no-repeat -224px 0;
+	float: left;
+	cursor: pointer;
+	line-height: 75px;
+	text-align: center;
+	font-size: 16px;
+	color: #5e2e00;
+	text-indent: 10px;
+}
+.qgleft p{
+	margin-top:10px;
+}
+.qgleft strong{
+	font-size: 24px;
+	color: #fff;
+	margin-left: 5px;
+	font-weight: 400;
+}
+.qgleft span{
+	color: #a3371c;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.jdt{
+	width: 118px;
+	height: 15px;
+	font-size: 12px;
+	margin-left: 5px;
+	float: left;
+}
+.jd{
+	width: 60px;
+	height: 10px;
+	border-radius: 5px;
+	background: #e35034;
+	float: right;
+	margin-top:5px;
+}
+.jd i{
+	display: block;
+	width: 5px;
+	height: 10px;
+	background: #f99c95;
+	border-radius: 5px;
+}
+.footer{
+	width: 100%;
+	height: 450px;
+	background: #fff;
+	margin-top:20px;
+}
+.footbg{
+	width: 1200px;
+	height: 450px;
+	margin:0 auto;
+	background: url(../img/foot.png) no-repeat;
+}

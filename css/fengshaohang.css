@@ -1,0 +1,236 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#f5f5f5;
+	font-family: "微软雅黑";
+}
+.u-flyer {
+	display: block;
+	width: 210px;
+	height: 210px;
+	border-radius: 50px;
+	position: fixed;
+	z-index: 9999;
+}
+.uu{
+	width: 1200px;
+	height: 40px;
+	margin:20px auto;
+}
+.uu div{
+	width: 160px;
+	height: 40px;
+	margin:0 auto;
+}
+.uu h4{
+	float: left;
+	height: 40px;
+	width: 80px;
+	margin-left: 5px;
+	font-size: 18px;
+    font-weight: normal;
+	line-height: 40px;
+}
+.uu u:first-of-type{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top:10px;
+	background: url(../img/uu.png)no-repeat -180px 0;
+	float: left;
+}
+.uu u:last-of-type{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top:10px;
+	background: url(../img/uu.png)no-repeat -180px 0;
+	float: left;
+}
+.Fengjvzhong{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.Fengkuang{
+	margin-top:20px;
+	width:224px;
+	height:310px;
+	background-color:#fff;
+	float:left;
+	margin:0 auto;
+	text-justify: auto;
+	position:relative;
+	overflow:hidden;
+}
+.Fengkuang img{
+	width: 210px;
+	height: 210px;
+	margin:10px 10px;
+}
+.Fengkuang a{
+	position: absolute;
+	height:300px;
+	width:224px;
+    color:#000;
+    text-decoration: none;
+}
+.Fengjvzhong .Fengwenzi{
+	position: relative;
+	width: 190px;
+	margin:0 auto;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 20px;
+    text-align: center;
+    font-size:10px;
+}
+.Fengkuang2{
+	position:absolute;
+	text-align:center;
+	margin-top:275px;
+	width:224px;
+	height:150px;
+	color:crimson;
+	transition:.4s;
+	background-color:#fff;
+}
+.Fengkuang:hover .Fengkuang2{
+	margin-top:230px;
+}
+.Fengfu1{
+	margin-top:15px;
+	float: left;
+	width:90px;
+    height:35px;
+    background-color:#F5F5F5;
+    color:#666;
+    opacity:0;
+    line-height:34px;
+    margin-left:10px;
+}
+.Fengfu2{
+	margin-top:15px;
+	float: left;
+	width:90px;
+    height:35px;
+    background-color:#ff4040;
+    color:#fff;
+    opacity:0;
+    line-height:34px;
+    margin-left:20px;
+}
+.Fengfu1:hover{
+	background-color:#eee;
+}
+.Fengfu2:hover{
+	background-color:#f31e1e;
+}
+.Fengkuang:hover .Fengfu1{
+	opacity:1;
+}
+.Fengkuang:hover .Fengfu2{
+	opacity:1;
+}
+.shopFeng{
+	width: 350px;
+	height: 100px;
+	border-bottom:1px solid red;
+	font-size: 12px;
+}
+.shopFeng img{
+	width:80px;
+	height: 80px;
+	margin-top:10px;
+	margin-left: 10px;
+	float:left;
+}
+.shopFeng span{
+	display: block;
+	float: left;
+	margin-top: 18px;
+	font-size: 12px;
+	font-weight: 300;
+}
+.shopFeng .Fengwenzi{
+	width: 150px;
+	height: 20px;
+	margin-top: 18px;
+	margin-left: 10px;
+	font-size: 12px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shopFeng03{
+	width: 120px;
+	height: 30px;
+	float: left;
+	margin-top:10px;
+}
+.shopFengdl{
+	float: left;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+	font-weight: 500;
+}
+.shopFeng04{
+	width: 57px;
+	height: 30px;
+	float: left;
+	font-size: 16px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 30px;
+	color: red;
+	font-weight: 500;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.del{
+	display: block;
+	width: 15px;
+	height: 20px;
+	background: #ccc;
+	margin-left: 10px;
+	float: left;
+	margin-top:5px;
+	text-align: center;
+	line-height: 20px;
+	color:#000;
+}
+.spnum{
+	width: 30px;
+	height:20px;
+	float: left;
+	margin-top:5px;
+	text-align: center;
+	color:#000;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	outline: none;
+}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+.add{
+	display: block;
+	width: 15px;
+	height: 20px;
+	background: #ccc;
+	margin-top:5px;
+	float: left;
+	text-align: center;
+	color:#000;
+}
