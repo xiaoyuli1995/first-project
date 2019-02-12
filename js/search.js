@@ -90,25 +90,3 @@ var sss=document.getElementById("sss");
 	 
      xuan();
     
-$(function(){
-	
-	var city=["北京","上海","广州"];
-	var qu=[["朝阳区","通州区","海淀区","丰台区","大兴区","西城区","房山区","门头沟区","平谷区","昌平区","怀柔区","顺义区","石景山区","东城区","延庆区","密云县"],
-	["松江区","黄浦区","浦东新区","长宁区","杨浦区","闸北区","徐汇区","普陀区","青浦区","嘉定区","金山区","奉贤区","宝山区","崇明区","虹口区","静安区","闵行区"],
-	["白云区","从化区","黄埔区","花都区","南沙区","嘉湾区","越秀区","天河区","海珠区","番禺区","增城区"]];
-	
-	$(".sele").click(function(){
-		$(".sele>ul").css("display","block");
-	}).mouseleave(function(){
-		$(".sele>ul").css("display","none");
-	})
-	
-	/*$(".sele").mouseenter(function(){
-		$(".sele>ul>li>ul").append(<li>);
-	})*/
-	for(var i=0;i<city.length;i++){
-		$(".sele>ul>li").eq(i).find("span").append(city[i]);
-		console.log(city[i]);
-			$(".sele>ul>li").eq(i).find("ul").eq(i).find("li").eq(i).append(qu[i]);
-	}
-})
