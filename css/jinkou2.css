@@ -1,0 +1,383 @@
+body{
+	margin: 0 ;
+	padding:0 ;
+    font-family: "微软雅黑";
+    background-color: #F5F5F5;
+}
+body,html{
+    width:100%;
+    height:100%
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.headerTop{
+    width:100%;
+    height:30px;
+    background:#ddd;
+    /* margin-top:-16px; */
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size:12px
+}
+ 
+.headerTop .left li{
+   float:left;
+   margin:0 15px
+}
+.headerTop .right{
+   padding-left:400px
+}
+.headerTop .right li{
+    float:left;
+    margin:0 15px;
+}
+.headerTop .clearfloat{clear:both}
+.headerbottom{
+    width:100%;
+    height:120px;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-around
+   
+}
+.headerbottom .logo{
+    height:108px;
+    width:230px;
+    float:left;
+}
+.logo img{
+    width:100%;
+    height:100%
+}
+#scss{
+    border:none;
+    display:block;
+    width:690px;
+    height:39px; 
+    border:1px solid red;
+    float:left;
+
+}
+.headerbottom #small-inp{
+    display:block;
+    width:39px;
+    height:39px;
+    background:red;
+    float:left;
+    border:2px solid red;
+    text-align:center;
+    line-height:39px
+}
+.headerbottom #gouwu{
+    width:122px;
+    height:42px;
+    border:1px solid #ccc;
+    box-shadow:2px 2px 5px #ccc;
+    background:#fff;
+    position:relative;
+    text-align:center;
+    line-height:42px
+}
+.headerbottom #gouwu #gwc{
+    width:200px;
+    height:250px;
+    border-radius: 50%;
+    border:1px solid #ddd;
+    font-size:30px;
+    text-align:center;
+    line-height:250px;
+    position: absolute;
+    right:3px;
+    top:43px;
+    display:none
+}
+.headerbottom #gouwu:hover #gwc{
+    display:block;
+    z-index:999;
+    background:rgba(0,0,0,.7);
+    color:#fff
+}
+/* banner部分 */
+.swiper-container {
+    width: 1280px;
+    height: 398px;
+}  
+.swiper-container img{
+    width:100%;
+    height:100%
+}
+/* banner-end */
+h3{
+    width:1280px;
+    height:60px;  
+}
+h3 p{
+    width:300px;
+    height:26px;
+    font-size:22px;
+    line-height:30px;
+    font-weight:400;
+    float:left;
+    margin-left:41px
+}
+/* 商品部分 */
+.goods{
+    width:1200px;
+    height:662px;
+    background:#fff;
+    
+   margin-left:20px
+}
+.goods li{
+    width:225px;
+    height:330px;
+    background:#fff;
+    border-left:1px solid #eee;
+    border-bottom:1px solid #eee;
+    float:left;
+    
+   
+}
+.goods li.fist{
+    border-left:none
+}
+.goods li>a{
+    display:block;
+    width:200px;
+    height:318px;
+    margin-left:20px;
+    margin-top:10px
+}
+.goods li>a .picture{
+    width:200px;
+    height:220px
+}
+.goods li>a .picture img{
+    width:200px;
+    height:200px;
+    margin-top:15px;
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.goods li>a .picture img:hover{
+    margin-top:0
+}
+
+.goods li>a p{
+    width:200px;
+    height:40px;
+    color:#000;
+    font-size:14px;
+    overflow: hidden;
+    transition: color .3s
+}
+.goods li>a .price{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-top:10px
+}
+.goods li>a .price span{
+    font-size:14px;
+    font-weight:700;
+    color:#ed1b2f;
+}
+.goods li>a .price b{
+    display:block;
+    width:88px;
+    height:30px;
+    background:#ff0036;
+    border-radius: 10%;
+    float:right;
+    margin-right:10px;
+    font-size:14px;
+    line-height:30px;
+    text-align:center;
+    font-weight:400;
+    color:#fff
+}
+/* goods-end*/
+/* 商品-第二部分 */
+.pan{
+    width:1240px;
+    height:370px
+}
+.pan ul li{
+    width:230px;
+    height:370px;
+    margin-right:10px;
+    float:left;
+    position:relative;
+    cursor:pointer
+}
+.pan ul li img{
+    width:230px;
+    height:370px;
+}
+ .ppzza{
+    position:absolute;
+    width:188px;
+    height:80px;
+    left:17px;
+    bottom:20px;
+    color:#fff;
+    background:rgba(0,0,0,.5);
+    padding-top:1px
+}
+.ppzza p{
+    margin-top:5px;
+    text-align:center
+}
+.ppzza em{
+    display:block;
+    width:30px;
+    height:2px;;
+    background:#ffe3c9;
+    margin:10px auto
+}
+.ppzza span{
+    display:block;
+    text-align:center;
+    font-size:12px
+}
+/* 第三部分商品 */
+.aal{
+    width:1200px;
+    height:400px;
+    margin:20px auto
+}
+.aalleft{
+    width:240px;
+    height:400px;
+    float:left
+}
+.aalleft img{
+    width:240px;
+    height:400px
+}
+.aalcenter{
+    width:720px;
+    height:400px;
+    background:#fff;
+    float:left
+}
+.aalcenterTop{
+    width:710px;
+    height:40px;
+    border-right:1px solid #f5f5f5;
+}
+.aalcenterTop ul{
+    width:660px;
+    height:40px;
+    margin-left:10px;
+    border-right:none
+}
+.aalcenterTop ul li{
+    float:left;
+    width:80px;
+    height:16px;
+    text-align:center;
+    line-height:16px;
+    margin-top:13px;
+    border-right:1px solid #aaa
+}
+.aalcenterTop ul li.lastLi{
+    border-right:none
+}
+.aalcenterTop ul li a{
+    font-size:12px;
+    color:#aaa
+}
+.aalcenterBottom{
+    width:720px;
+    height:360px;
+}
+.aalcenterBottom li{
+    width:220px;
+    height:179px;
+    float:left;
+    border-right:1px solid #f5f5f5;
+    border-bottom:1px solid #f5f5f5;
+    padding-top:1px;
+    cursor:pointer
+}
+.aalcenterBottom li.clearB{
+    border-right:none
+}
+.aalcenterBottom li p:first-of-type{
+    font-size:14px;
+    color:#333;
+    margin:10px 0 0 25px
+}
+.aalcenterBottom li p:last-of-type{
+    font-size:12px;
+    color:#925740;
+    margin:10px 0 0 25px
+}
+.aalcenterBottom li img{
+    width:106px;
+    height:91px;
+    float:right;
+    margin-right:10px;
+    transition-property: margin;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.aalcenterBottom li:hover img{
+    margin-right:30px
+}
+.aalright{
+    width:240px;
+    height:400px;
+    float:left;
+    cursor:pointer;
+    background:#fff
+}
+.aalright a{
+    display:block;
+    width:238px;
+    height:132px;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc
+}
+ .ri,.lf{
+    width:119px;
+    height:132px;
+    float:left;
+    overflow:hidden
+}
+.lf p{
+    width:110px;
+    height:35px;
+    margin-left:10px;
+    font-size:12px;
+    overflow:hidden;
+    margin-top:15px;
+    color:#000
+}
+.lf span{
+    margin-left:10px;
+    color:#ed1b2f
+}
+.ri img{
+    width:90px;
+    height:90px;
+    margin-left:19px;
+    margin-top:20px;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.ri  img:hover{
+    margin-left:0
+}
