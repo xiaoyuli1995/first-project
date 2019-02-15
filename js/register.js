@@ -32,26 +32,6 @@ function vecli(codeZ){
 	codeZ = code_arr.join("");
 	return codeZ;
 }
-/*干扰线的随机坐标值*/
-function lineX(){
-    var ranLineX=Math.floor(Math.random()*90);
-    return ranLineX;
-}
-function lineY(){
-    var ranLineY=Math.floor(Math.random()*40);
-    return ranLineY;
-}
-function clickline(){
-	var mycanvas = $("#mycanvas");
-	var cxt=mycanvas[0].getContext('2d');
-	cxt.fillStyle='#57565f';
-	
-	cxt.fillRect(0,0,125,50);
-	cxt.fillStyle = '#fff';
-	cxt.font='bold 30px Arial';
-    cxt.fillText(vecli(),25,35); 
-}
-clickline();
 
 /*正则验证*/
 	var regExp = /^\w{8,10}$/;

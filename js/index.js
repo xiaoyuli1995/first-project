@@ -149,7 +149,7 @@
 		$(document).scrollTop(click_sum);
 		})
 
-/*田浩-banner-left-icon*/
+/*-banner-left-icon*/
 var posia_bg = ["#645144","#f78b4b","#0bcd96","#ff87d0","#fe8282","#925740","#5c98f1","#6d62da",
 					"#ff4040","#5c98f1","#ff87d0","#f78b4b"]
 	$(".banner_left a").hover(function(){
